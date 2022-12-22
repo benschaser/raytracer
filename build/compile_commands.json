@@ -1,0 +1,82 @@
+[
+{
+  "directory": "/Users/benschaser/Documents/Projects/raytracer/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -llvm -Wall -Wextra -pedantic -std=c++17 -o CMakeFiles/vector3d.dir/vector3d.cpp.o -c /Users/benschaser/Documents/Projects/raytracer/vector3d.cpp",
+  "file": "/Users/benschaser/Documents/Projects/raytracer/vector3d.cpp"
+},
+{
+  "directory": "/Users/benschaser/Documents/Projects/raytracer/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -llvm -Wall -Wextra -pedantic -std=c++17 -o CMakeFiles/ray.dir/ray.cpp.o -c /Users/benschaser/Documents/Projects/raytracer/ray.cpp",
+  "file": "/Users/benschaser/Documents/Projects/raytracer/ray.cpp"
+},
+{
+  "directory": "/Users/benschaser/Documents/Projects/raytracer/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -llvm -Wall -Wextra -pedantic -std=c++17 -o CMakeFiles/hit.dir/hit.cpp.o -c /Users/benschaser/Documents/Projects/raytracer/hit.cpp",
+  "file": "/Users/benschaser/Documents/Projects/raytracer/hit.cpp"
+},
+{
+  "directory": "/Users/benschaser/Documents/Projects/raytracer/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -llvm -Wall -Wextra -pedantic -std=c++17 -o CMakeFiles/BVH_node.dir/BVH_node.cpp.o -c /Users/benschaser/Documents/Projects/raytracer/BVH_node.cpp",
+  "file": "/Users/benschaser/Documents/Projects/raytracer/BVH_node.cpp"
+},
+{
+  "directory": "/Users/benschaser/Documents/Projects/raytracer/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -llvm -Wall -Wextra -pedantic -std=c++17 -o CMakeFiles/world.dir/world.cpp.o -c /Users/benschaser/Documents/Projects/raytracer/world.cpp",
+  "file": "/Users/benschaser/Documents/Projects/raytracer/world.cpp"
+},
+{
+  "directory": "/Users/benschaser/Documents/Projects/raytracer/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -llvm -Wall -Wextra -pedantic -std=c++17 -o CMakeFiles/object.dir/object.cpp.o -c /Users/benschaser/Documents/Projects/raytracer/object.cpp",
+  "file": "/Users/benschaser/Documents/Projects/raytracer/object.cpp"
+},
+{
+  "directory": "/Users/benschaser/Documents/Projects/raytracer/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -llvm -Wall -Wextra -pedantic -std=c++17 -o CMakeFiles/lodepng.dir/lodepng.cpp.o -c /Users/benschaser/Documents/Projects/raytracer/lodepng.cpp",
+  "file": "/Users/benschaser/Documents/Projects/raytracer/lodepng.cpp"
+},
+{
+  "directory": "/Users/benschaser/Documents/Projects/raytracer/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -llvm -Wall -Wextra -pedantic -std=c++17 -o CMakeFiles/pixels.dir/pixels.cpp.o -c /Users/benschaser/Documents/Projects/raytracer/pixels.cpp",
+  "file": "/Users/benschaser/Documents/Projects/raytracer/pixels.cpp"
+},
+{
+  "directory": "/Users/benschaser/Documents/Projects/raytracer/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -llvm -Wall -Wextra -pedantic -std=c++17 -o CMakeFiles/camera.dir/camera.cpp.o -c /Users/benschaser/Documents/Projects/raytracer/camera.cpp",
+  "file": "/Users/benschaser/Documents/Projects/raytracer/camera.cpp"
+},
+{
+  "directory": "/Users/benschaser/Documents/Projects/raytracer/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -llvm -Wall -Wextra -pedantic -std=c++17 -o CMakeFiles/parser.dir/parser.cpp.o -c /Users/benschaser/Documents/Projects/raytracer/parser.cpp",
+  "file": "/Users/benschaser/Documents/Projects/raytracer/parser.cpp"
+},
+{
+  "directory": "/Users/benschaser/Documents/Projects/raytracer/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -llvm -Wall -Wextra -pedantic -std=c++17 -o CMakeFiles/random.dir/random.cpp.o -c /Users/benschaser/Documents/Projects/raytracer/random.cpp",
+  "file": "/Users/benschaser/Documents/Projects/raytracer/random.cpp"
+},
+{
+  "directory": "/Users/benschaser/Documents/Projects/raytracer/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -llvm -Wall -Wextra -pedantic -std=c++17 -o CMakeFiles/material.dir/material.cpp.o -c /Users/benschaser/Documents/Projects/raytracer/material.cpp",
+  "file": "/Users/benschaser/Documents/Projects/raytracer/material.cpp"
+},
+{
+  "directory": "/Users/benschaser/Documents/Projects/raytracer/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -llvm -Wall -Wextra -pedantic -std=c++17 -o CMakeFiles/texture.dir/texture.cpp.o -c /Users/benschaser/Documents/Projects/raytracer/texture.cpp",
+  "file": "/Users/benschaser/Documents/Projects/raytracer/texture.cpp"
+},
+{
+  "directory": "/Users/benschaser/Documents/Projects/raytracer/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -llvm -Wall -Wextra -pedantic -std=c++17 -o CMakeFiles/hitbox.dir/hitbox.cpp.o -c /Users/benschaser/Documents/Projects/raytracer/hitbox.cpp",
+  "file": "/Users/benschaser/Documents/Projects/raytracer/hitbox.cpp"
+},
+{
+  "directory": "/Users/benschaser/Documents/Projects/raytracer/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -llvm -Wall -Wextra -pedantic -std=c++17 -o CMakeFiles/raytrace.dir/main.cpp.o -c /Users/benschaser/Documents/Projects/raytracer/main.cpp",
+  "file": "/Users/benschaser/Documents/Projects/raytracer/main.cpp"
+},
+{
+  "directory": "/Users/benschaser/Documents/Projects/raytracer/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -llvm -Wall -Wextra -pedantic -std=c++17 -o CMakeFiles/threads.dir/threading-example.cpp.o -c /Users/benschaser/Documents/Projects/raytracer/threading-example.cpp",
+  "file": "/Users/benschaser/Documents/Projects/raytracer/threading-example.cpp"
+}
+]

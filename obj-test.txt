@@ -1,0 +1,40 @@
+# materials
+material glass glass solid (0.7 1 1) false
+material teal diffuse h-stripe (0.1 0.7 0.8) true
+material floor specular solid (0.6 0.6 0.6) false
+material light diffuse solid (1 1 1) true
+material light2 diffuse solid (2 2 2) true
+material light05 diffuse solid (0.5 0.5 0.5) true
+
+
+# objects
+#mesh (-2 0 0) box.txt red
+#mesh (0 0 0) box.txt red
+#mesh (2 0 0) box.txt red
+#mesh (-2 0 2) box.txt red
+#mesh (0 0 2) box.txt red
+#mesh (2 0 2) box.txt red
+
+# floor
+#sphere (0 0 -1000) 1000 floor
+
+# light
+#triangle (-4 -4 0) (-4 4 0) (-4 4 4) light
+#triangle (-4 -4 0) (-4 4 4) (-4 -4 4) light
+
+#
+#triangle (-10 10 8) (-10 -10 8) (10 -10 8) light2
+#triangle (-10 10 8) (10 -10 8) (10 10 8) light2
+
+# sky
+sphere (0 0 0) 2 teal
+sphere (5 -5 5) 3 light2
+sphere (0 0 0) 2.5 glass
+sphere (0 0 0) 50 light05
+
+# rendering
+threads 7
+rays 10 70
+camera (0 -10 5) (0 0 0) (0 0 1) 45
+pixels 1280 720
+output bvh.png
