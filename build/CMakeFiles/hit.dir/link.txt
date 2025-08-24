@@ -1,2 +1,0 @@
-/usr/bin/ar qc libhit.a CMakeFiles/hit.dir/hit.cpp.o
-/usr/bin/ranlib libhit.a

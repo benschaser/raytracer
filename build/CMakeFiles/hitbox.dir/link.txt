@@ -1,2 +1,0 @@
-/usr/bin/ar qc libhitbox.a CMakeFiles/hitbox.dir/hitbox.cpp.o
-/usr/bin/ranlib libhitbox.a

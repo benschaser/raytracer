@@ -1,2 +1,0 @@
-/usr/bin/ar qc libBVH_node.a CMakeFiles/BVH_node.dir/BVH_node.cpp.o
-/usr/bin/ranlib libBVH_node.a
