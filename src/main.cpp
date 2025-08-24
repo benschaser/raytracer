@@ -1,14 +1,4 @@
-#include "camera.h"
-#include "object.h"
-#include "color.h"
-#include "constants.h"
-#include "pixels.h"
-#include "ray.h"
-#include "hit.h"
-#include "world.h"
-#include "parser.h"
-#include "material.h"
-#include "random.h"
+#include "engine.h"
 #include <iomanip>
 #include <thread>
 
