@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 project(raytracer)
 
-add_compile_options(-Wall -Wextra -pedantic -std=c++17)
+add_compile_options(-Wall -pedantic -std=c++17)
 
 file(GLOB_RECURSE ENGINE_SOURCES src/engine/src/*.cpp)
 
