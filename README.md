@@ -15,7 +15,7 @@ This raytracer is ready to build right out of the box, provided that C++17 and C
 
 ## Instructions
 
-Run the raytracer from the command line with an argument of a txt file. This file contains the entire scene of objects to be rendered as well as the materials, textures, and camera settings. There are also some rendering settings available to set. This includes the thread count, ray bounce depth, and sampling count. See below for an example file.
+Run the raytracer from the command line with an argument of a relative path to a txt file. This file contains the entire scene of objects to be rendered as well as the materials, textures, and camera settings. There are also some rendering settings available to set. This includes the thread count, ray bounce depth, and sampling count. See below for an example file.
 
 ```txt
 # materials -> label name texture state color(rgb) emissive? roughness(metal only)
