@@ -19,31 +19,31 @@ material mirror specular solid (1 1 1) false
 # mesh (-2 9 1) slab.txt stone
 # mesh (-1.9 9.1 1.1) lightbox.txt light2
 # mesh (0 9 1) slab.txt steel
-mesh (0 0 0) pedestal.txt stone
+mesh (0 0 0) test/pedestal.txt stone
 sphere (0 0 3) 0.7 glass
 sphere (0 0 3) 0.1 bluelight
 
-mesh (4 0 0) pedestal.txt stone
+mesh (4 0 0) test/pedestal.txt stone
 sphere (4 0 3) 0.7 glass
 sphere (4 0 3) 0.3 glass
 sphere (4 0 3) 0.1 redlight
 
-mesh (0 -4 0) pedestal.txt stone
+mesh (0 -4 0) test/pedestal.txt stone
 sphere (0 -4 3) 0.7 glass
 sphere (0 -4 3) 0.3 glass
 sphere (0 -4 3) 0.1 greenlight
 
-mesh (8 0 0) pedestal.txt stone
+mesh (8 0 0) test/pedestal.txt stone
 sphere (8 0 3) 0.7 glass
 sphere (8 0 3) 0.3 glass
 sphere (8 0 3) 0.1 blueMirror
 
-mesh (8 -8 0) pedestal.txt stone
+mesh (8 -8 0) test/pedestal.txt stone
 sphere (8 -8 3) 0.7 glass
 #sphere (8 -8 3) 0.3 glass
 sphere (8 -8 3) 0.1 greenMirror
 
-mesh (0 -8 0) pedestal.txt stone
+mesh (0 -8 0) test/pedestal.txt stone
 sphere (0 -8 3) 0.7 glass
 sphere (0 -8 3) 0.3 glass
 sphere (0 -8 3) 0.1 redMirror
@@ -79,8 +79,8 @@ triangle (-10 -100 0) (-10 100 0) (-10 100 10) wall
 #sphere (0 0 0) 1000 light
 
 # rendering
-threads 7
-rays 10 10
+threads 12
+rays 10 25
 camera (15 -15 5) (0 0 3.5) (0 0 1) 45
 pixels 1280 720
-output obj-test2.png
+output renders/render.png

@@ -237,7 +237,7 @@ void Parser::parse_mesh(std::stringstream& ss) {
         return;
     }
     // Material* material = materials[material_name].get();
-    std::ifstream input{"../" + filename};
+    std::ifstream input{filename};
     if (!input) {
         throw std::runtime_error("Cannot open mesh file: " + filename);
     }
